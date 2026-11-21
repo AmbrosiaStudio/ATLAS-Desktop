@@ -19,13 +19,7 @@ ATLAS Desktop is the Windows-first desktop companion to ATLAS for Android. It ha
 
 ## Run locally
 
-Use JDK 17 or newer and the Gradle wrapper:
-
-```powershell
-.gradlew.bat run
-```
-
-If the wrapper has not been generated yet, use Gradle 9.2.1:
+Use JDK 17 or newer and Gradle 9.2.1:
 
 ```powershell
 gradle run
@@ -34,7 +28,7 @@ gradle run
 Package a Windows installer from Windows:
 
 ```powershell
-.gradlew.bat packageMsi
+gradle packageMsi
 ```
 
 ## Local data

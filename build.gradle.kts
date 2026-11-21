@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "ir.mrmabrosia.atlas"
-version = "0.1.0"
+version = "0.2.0"
 
 kotlin {
     jvmToolchain(17)
@@ -17,6 +17,10 @@ dependencies {
     implementation(compose.foundation)
     implementation(compose.ui)
     implementation(compose.runtime)
+
+    implementation("org.xerial:sqlite-jdbc:3.50.3.0")
+
+    testImplementation(kotlin("test"))
 }
 
 compose.desktop {
